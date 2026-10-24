@@ -1,1 +1,36 @@
 /* Wireframe: lavora con l'inspector aperto, prova lì e poi riporta qui il codice */
+/*resettare lo stile*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* simuliamo lo smartphone con una riga*/
+
+body {
+    width: 512px;border: 1px dashed gray;
+}
+/* impostiamo il padding*/
+.header{
+padding: 10px 20px;
+}
+/* impostiamo la classe card*/
+.card {
+    min-height:160px;
+    margin: 20px;
+    padding: 20px;
+    border:2px solid black ;
+}
+.card h2 {
+    margin-bottom: 4px;
+}
+/* per la classe footer*/
+.foteer{
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
