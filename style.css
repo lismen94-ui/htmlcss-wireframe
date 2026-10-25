@@ -12,6 +12,7 @@
 body {
     width: 512px;border: 1px dashed gray;
     background-color:rgb(192, 213, 236);
+    
 }
 /* impostiamo il padding*/
 .header{
@@ -29,6 +30,7 @@ padding: 10px 20px;
     margin: 20px;
     padding: 20px;
     border:2px solid black ;
+    border-radius: 8px 8px 8px 8px
 }
 .card h2 {
     margin-bottom: 4px;
