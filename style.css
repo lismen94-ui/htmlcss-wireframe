@@ -29,8 +29,9 @@ padding: 10px 20px;
     min-height:160px;
     margin: 20px;
     padding: 20px;
-    border:2px solid black ;
+    border:2px solid rgb(143, 140, 140) ;
     border-radius: 8px 8px 8px 8px
+   
 }
 .card h2 {
     margin-bottom: 4px;
@@ -45,3 +46,10 @@ padding: 10px 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
+.nuovo{
+    position: absolute;
+    background-color: crimson;
+    padding: 1%;
+    border-radius: 15px
+}
+    
