@@ -33,13 +33,16 @@ padding: 10px 20px;
     border-radius: 8px 8px 8px 8px;
     display: inline-block;
     vertical-align: middle;
+    position: relative; 
+    
 }
 .card h2 {
     margin-bottom: 4px;
     display: inline-block;
-  vertical-align: middle;
+    vertical-align: middle;
+    position: relative;
 }
-/* per la classe footer*/
+
 .footer {
     text-align: center;
     background-color: #7575e4;
@@ -48,11 +51,33 @@ padding: 10px 20px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 .nuovo{
     position: absolute;
     background-color: crimson;
+    color: white;              /* Testo bianco */
     padding: 1%;
-    border-radius: 15px;
+    border-radius: 50px;
+    top: -10px;    /* Lo sposta leggermente verso l'alto fuori dal bordo della card */
+    right: -10px;  /* Lo sposta verso l'angolo destro */
+    font-weight: bold;         /* Mette il testo in grassetto */
+   }
+.card img {
+    width: 60px;          /* Modifica questo valore se la vuoi più grande o più piccola */
+    height: 60px;
+    display: inline-block;
+    margin-right: 12px;   /* Spazio tra icona e scritta */
+border-radius: 8px 8px;
+   border: 2px solid #7575e4;
+
 }
-    
+.chat {
+    position: absolute;
+    background-color: chartreuse;
+    padding: 10px;
+     border-radius: 50px;
+    border-color: chartreuse;
+  translate: -130% 400%
+
+}
